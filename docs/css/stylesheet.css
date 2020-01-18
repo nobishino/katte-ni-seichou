@@ -37,10 +37,12 @@ a{
     text-decoration: none;
 }
 .header-right a{
-    font-size: 40px;
+    font-size: 65px;
     line-height: 65px;
     display: block;
     color: rgba(255,255,255,1.0);
+    width: 100px;
+    text-align: center;
 }
 footer{
     text-align: center;
