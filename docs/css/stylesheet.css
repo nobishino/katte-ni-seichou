@@ -1,0 +1,13 @@
+.container{
+    width:1170px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.wrapper{
+    padding-top:180px;
+    padding-bottom:100px;
+    background-image:url("./images/seichouki.png");
+    background-size:cover;
+}
