@@ -1,6 +1,11 @@
 body {
     margin: 0;
-  }
+}
+a{
+    text-decoration: none;
+    
+}
+
 .container{
     max-width:1170px;
     padding-right:15px;
@@ -16,33 +21,52 @@ body {
     background-size:cover;
     text-align: center;
 }
+.wrapper-member{
+    padding-top:65px;
+    padding-bottom:100px;
+}
 header{
     height:65px;
     background-color:rgba(46,46,46,0.9);
     color: rgba(255,255,255,1.0);
+    position:fixed;
+    top:0;
+    z-index:10;
+    width: 100%;
 }
 .header-left{
     float:left;
     font-size: 40px;
     line-height: 65px;
+    color: white;
 }
 
+.header-left a{
+    color: white;
+}
 .header-right{
     float: right;
 }
-.header-right:hover {
+.menu-icon{
+    display: none;
+    color: rgba(255,255,255,1.0);
+    float: right;
+    text-align: center;
+    font-size: 65px;
+    line-height: 65px;
+}
+.header-right a :hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-a{
-    text-decoration: none;
-}
+
 .header-right a{
     font-size: 65px;
     line-height: 65px;
-    display: block;
+    display: inline-block;
     color: rgba(255,255,255,1.0);
     width: 100px;
     text-align: center;
+    margin: 0px 10px;
 }
 footer{
     text-align: center;
