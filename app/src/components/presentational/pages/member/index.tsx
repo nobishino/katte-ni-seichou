@@ -3,10 +3,10 @@ import { VFC } from 'react';
 
 import { Member } from '../../member';
 
-const Template: VFC = () => (
+const Page: VFC = () => (
   <VStack>
     <Member />
   </VStack>
 );
 
-export default Template;
+export default Page;

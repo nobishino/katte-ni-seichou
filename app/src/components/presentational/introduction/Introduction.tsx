@@ -15,9 +15,9 @@ import { MdCheckCircle, MdArrowForward } from 'react-icons/md';
 import { IconType } from 'react-icons/lib';
 
 export const Introduction: VFC = () => (
-  <VStack w="45%">
+  <VStack w="100%">
     <Stack w="100%">
-      <VStack pt={6}>
+      <VStack>
         <Heading as="h3" size="lg">
           勝成会ってなに？
         </Heading>
