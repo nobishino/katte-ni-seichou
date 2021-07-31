@@ -21,24 +21,24 @@ export const Sidenav: VFC = () => (
     <UnorderedList
       style={{ borderLeft: '1px dashed #aaaaaa', listStyleType: 'none' }}
     >
-      <ListItem pl={4} pt={2}>
+      <ListItem pl={4} pt={2} color="blue.500">
         <Link as={ReactLink} to="/">
-          ホーム
+          勝成会とは？
         </Link>
       </ListItem>
-      <ListItem pl={4} pt={2}>
+      <ListItem pl={4} pt={2} color="blue.500">
         <Link as={ReactLink} to="/member">
-          参加者
+          同志紹介
         </Link>
       </ListItem>
     </UnorderedList>
-    <Heading as="h6" size="md" fontWeight="bold">
+    <Heading as="h6" size="md">
       サイト外リンク
     </Heading>
     <UnorderedList
       style={{ borderLeft: '1px dashed #aaaaaa', listStyleType: 'none' }}
     >
-      <ListItem pl={4}>
+      <ListItem pl={4} color="blue.500">
         <Link
           href="https://github.com/nobishino/katte-ni-seichou"
           target="_blank"
