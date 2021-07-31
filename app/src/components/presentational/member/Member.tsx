@@ -1,4 +1,12 @@
-import { VStack, HStack, Avatar, Stack, Text, Heading } from '@chakra-ui/react';
+import {
+  VStack,
+  HStack,
+  Avatar,
+  Stack,
+  Heading,
+  ListItem,
+  List,
+} from '@chakra-ui/react';
 import { VFC } from 'react';
 import data from '../../../data/profiles.json';
 
@@ -7,15 +15,23 @@ export const Member: VFC = () => (
     {data.profiles.map((profile) => (
       <HStack spacing={8}>
         <VStack>
-          <Heading size="md">{profile.name}</Heading>
-          <Avatar size="xl" name={profile.name} src={profile.image} />
+          <Avatar size="2xl" name={profile.name} src={profile.image} />
+          <Heading size="lg">{profile.name}</Heading>
         </VStack>
 
         <Stack>
           <Heading size="md">関心ごと</Heading>
-          <Text>{profile.interests}</Text>
+          <List pl={4}>
+            {profile.interests.map((item) => (
+              <ListItem>{item}</ListItem>
+            ))}
+          </List>
           <Heading size="md">やりたいこと</Heading>
-          <Text>{profile.wannado}</Text>
+          <List pl={4}>
+            {profile.wannado.map((item) => (
+              <ListItem>{item}</ListItem>
+            ))}
+          </List>
         </Stack>
       </HStack>
     ))}
