@@ -7,8 +7,8 @@ export const Member: VFC = () => (
     {data.profiles.map((profile) => (
       <HStack spacing={8}>
         <VStack>
-          <Avatar size="xl" name={profile.name} src={profile.image} />
           <Heading size="md">{profile.name}</Heading>
+          <Avatar size="xl" name={profile.name} src={profile.image} />
         </VStack>
 
         <Stack>
