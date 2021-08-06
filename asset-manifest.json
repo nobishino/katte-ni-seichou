@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/katte-ni-seichou/static/js/main.de2aef54.chunk.js",
-    "main.js.map": "/katte-ni-seichou/static/js/main.de2aef54.chunk.js.map",
+    "main.js": "/katte-ni-seichou/static/js/main.9bcecfb7.chunk.js",
+    "main.js.map": "/katte-ni-seichou/static/js/main.9bcecfb7.chunk.js.map",
     "runtime-main.js": "/katte-ni-seichou/static/js/runtime-main.20371247.js",
     "runtime-main.js.map": "/katte-ni-seichou/static/js/runtime-main.20371247.js.map",
     "static/js/2.c6f00277.chunk.js": "/katte-ni-seichou/static/js/2.c6f00277.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.20371247.js",
     "static/js/2.c6f00277.chunk.js",
-    "static/js/main.de2aef54.chunk.js"
+    "static/js/main.9bcecfb7.chunk.js"
   ]
 }
