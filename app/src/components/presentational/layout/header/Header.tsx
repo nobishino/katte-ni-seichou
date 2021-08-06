@@ -22,7 +22,7 @@ export const Header: VFC = () => (
       </Box>
       <Center>
         <Heading as="h2" size="3xl" pl={8}>
-          勝 成 会
+           勝手に成長™️
         </Heading>
         <Heading color="blue.700" as="h2" size="3xl">
           するな
