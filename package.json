@@ -49,9 +49,9 @@
   "homepage": "https://nobishino.github.io/katte-ni-seichou",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ./docs && mv build ./docs",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "lint:es": "eslint './src/**/*.{ts,tsx}"
   },
