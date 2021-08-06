@@ -1,33 +1,46 @@
-# katte-ni-seichou
+# Getting Started with Create React App
 
-[勝手に成長™️コミュニティ公式Webサイト](https://nobishino.github.io/katte-ni-seichou/)のリポジトリです。
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 編集するには
+## Available Scripts
 
-* pull-requestを送ってください。
-* docs/以下がWebサイトとして公開されます。HTMLとJavaScriptとCSSなどが使えます。
+In the project directory, you can run:
 
-## 編集要望やTodoを管理する
+### `yarn start`
 
-* Issueを書いてください。
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## ビルドする
-* npm run build を実行してからPRを出してください
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## 勝成会に参加する
-1. 以下を /data/profiles.jsonのコピーして、"profiles": []の末尾に追加して自分のプロフィールに編集して追加してください。
+### `yarn test`
 
-```  
-  {
-    "id": "1",  //前の人のIDに+1して一意な値になるようにしてください。
-    "image": "https://pbs.twimg.com/profile_images/1405161654971637760/eYQycmiW_400x400.jpg",  //web上にアップロードされた画像を使ってください。設定してなくてもOKです。
-    "name": "Tarokov",  //自分の名前を入れてください
-    "interests": [
-      "減量","バドミントン","投信・株" //興味のあることを入れてください
-    ],
-    "wannado": [
-      "ブログ投稿","美味しいもの食べたい" //勝成会でやってみたいことを入れてください
-    ]
-  }
-```
-2. PRを出して、マージされたら完了です。
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

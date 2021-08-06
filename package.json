@@ -48,7 +48,7 @@
   "homepage": "https://nobishino.github.io/katte-ni-seichou",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -rf ../docs && mv build ../docs",
+    "build": "react-scripts build && rm -rf ./docs && mv build ./docs",
     "test": "react-scripts test",
     "lint:es": "eslint './src/**/*.{ts,tsx}"
   },
