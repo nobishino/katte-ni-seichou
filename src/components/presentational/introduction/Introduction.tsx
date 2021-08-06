@@ -19,7 +19,7 @@ export const Introduction: VFC = () => (
     <Stack w="100%">
       <VStack>
         <Heading as="h3" size="lg">
-          勝成会ってなに？
+          勝成会ってなに？？？？？？
         </Heading>
         <Text fontSize="lg" style={{ textIndent: '1rem' }} w="100%">
           勝成会は、勝手に成長する全ての人を<strong>応援しない</strong>
