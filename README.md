@@ -11,8 +11,13 @@
 
 * Issueを書いてください。
 
-## ビルドする
-* npm run build を実行してからPRを出してください
+## ローカルでの動作確認
+
+* `npm run start` を実行して`localhost:3000`にアクセスしてください。
+
+## デプロイ
+
+`master`ブランチに`push`するとGitHub Actionsでデプロイが行われます。
 
 ## 勝成会に参加する
 1. 以下を /data/profiles.jsonのコピーして、"profiles": []の末尾に追加して自分のプロフィールに編集して追加してください。
