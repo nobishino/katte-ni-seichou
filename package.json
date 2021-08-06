@@ -15,6 +15,7 @@
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "framer-motion": "^4",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
@@ -49,6 +50,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf ./docs && mv build ./docs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs",
     "test": "react-scripts test",
     "lint:es": "eslint './src/**/*.{ts,tsx}"
   },
