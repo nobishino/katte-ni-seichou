@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/katte-ni-seichou/static/js/main.ad1de51b.chunk.js",
-    "main.js.map": "/katte-ni-seichou/static/js/main.ad1de51b.chunk.js.map",
+    "main.js": "/katte-ni-seichou/static/js/main.cffc4610.chunk.js",
+    "main.js.map": "/katte-ni-seichou/static/js/main.cffc4610.chunk.js.map",
     "runtime-main.js": "/katte-ni-seichou/static/js/runtime-main.f16053e6.js",
     "runtime-main.js.map": "/katte-ni-seichou/static/js/runtime-main.f16053e6.js.map",
-    "static/js/2.300e3000.chunk.js": "/katte-ni-seichou/static/js/2.300e3000.chunk.js",
-    "static/js/2.300e3000.chunk.js.map": "/katte-ni-seichou/static/js/2.300e3000.chunk.js.map",
+    "static/js/2.4226976e.chunk.js": "/katte-ni-seichou/static/js/2.4226976e.chunk.js",
+    "static/js/2.4226976e.chunk.js.map": "/katte-ni-seichou/static/js/2.4226976e.chunk.js.map",
     "static/js/3.dd04e0fb.chunk.js": "/katte-ni-seichou/static/js/3.dd04e0fb.chunk.js",
     "static/js/3.dd04e0fb.chunk.js.map": "/katte-ni-seichou/static/js/3.dd04e0fb.chunk.js.map",
     "index.html": "/katte-ni-seichou/index.html",
-    "static/js/2.300e3000.chunk.js.LICENSE.txt": "/katte-ni-seichou/static/js/2.300e3000.chunk.js.LICENSE.txt"
+    "static/js/2.4226976e.chunk.js.LICENSE.txt": "/katte-ni-seichou/static/js/2.4226976e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f16053e6.js",
-    "static/js/2.300e3000.chunk.js",
-    "static/js/main.ad1de51b.chunk.js"
+    "static/js/2.4226976e.chunk.js",
+    "static/js/main.cffc4610.chunk.js"
   ]
 }
