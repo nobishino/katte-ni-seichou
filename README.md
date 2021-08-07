@@ -4,8 +4,7 @@
 
 ## 編集するには
 
-* pull-requestを送ってください。
-* docs/以下がWebサイトとして公開されます。HTMLとJavaScriptとCSSなどが使えます。
+* `src`以下を修正してpull-requestを送ってください。
 
 ## 編集要望やTodoを管理する
 
