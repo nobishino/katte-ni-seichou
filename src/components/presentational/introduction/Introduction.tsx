@@ -87,6 +87,49 @@ export const Introduction: VFC = () => (
               </Box>
             </HStack>
           </ListItem>
+          <ListItem p={2}>
+            <HStack>
+              <ListIcon
+                as={MdArrowForward as IconType}
+                color="blue.500"
+                fontSize="lg"
+              />
+              <Box fontWeight="bold" fontSize="md">
+                SQLアンチパターン輪読会
+              </Box>
+            </HStack>
+          </ListItem>
+        </List>
+      </VStack>
+      <VStack pt={6}>
+        <Heading as="h3" size="lg">
+          やりたいことリスト
+        </Heading>
+        <List spacing={3}>
+          <ListItem p={2}>
+            <HStack>
+              <ListIcon
+                as={MdArrowForward as IconType}
+                color="blue.500"
+                fontSize="lg"
+              />
+              <Box fontWeight="bold" fontSize="md">
+                SREの探求輪読会
+              </Box>
+            </HStack>
+          </ListItem>
+          <ListItem p={2}>
+            <HStack>
+              <ListIcon
+                as={MdArrowForward as IconType}
+                color="blue.500"
+                fontSize="lg"
+              />
+              <Box fontWeight="bold" fontSize="md">
+                NAND 2 tetris
+              </Box>
+            </HStack>
+          </ListItem>
         </List>
       </VStack>
     </Stack>
